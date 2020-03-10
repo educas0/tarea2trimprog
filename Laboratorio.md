@@ -35,9 +35,9 @@ Existen cuatro métodos interesantes de LocalDate para comparar fechas:
 
 ### Ejercicio
 
-  a) Crear fechas y formatos para : `""dd-MM-yyyy"` y `""dd-MM-yyyy HH:mm:ss E"`
-  b) Utilizando el objeto `Calendar` configurar la fecha para  `Mon Dec 31 00:00:00 IST 1990`
-  c) DateFormat es una clase abstracta y **SimpleDateFormat** es una clase que hereda de la anterior. Averigua utilizando la última cómo se parsea (o convierte) un String a Formato Fecha de la fecha  "02/25/2016"
-  d) Crea un ejemplo de uso para los métodos `isEquals` y `isBefore` de LocalDate
-  e) Averigua todas las zonas temporales disponibles con utilizando **ZoneId** . Configura con **TimeZone** la zona horaria a **Canada/Yukon**
+1. Crear fechas y formatos para : `""dd-MM-yyyy"` y `""dd-MM-yyyy HH:mm:ss E"`
+2. Utilizando el objeto `Calendar` configurar la fecha para  `Mon Dec 31 00:00:00 IST 1990`
+3. DateFormat es una clase abstracta y **SimpleDateFormat** es una clase que hereda de la anterior. Averigua utilizando la última cómo se parsea (o convierte) un String a Formato Fecha de la fecha  "02/25/2016"
+4. Crea un ejemplo de uso para los métodos `isEquals` y `isBefore` de LocalDate
+5. Averigua todas las zonas temporales disponibles con utilizando **ZoneId** . Configura con **TimeZone** la zona horaria a **Canada/Yukon**
   `

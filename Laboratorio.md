@@ -17,6 +17,6 @@ SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yy");
 
 ### Ejercicio
 
-*Crear fechas y formatos para : `""dd-MM-yyyy"` y `""dd-MM-yyyy HH:mm:ss E"`
-*Utilizando el objeto `Calendar` configurar la fecha para  `Mon Dec 31 00:00:00 IST 1990`
+* Crear fechas y formatos para : `""dd-MM-yyyy"` y `""dd-MM-yyyy HH:mm:ss E"`
+* Utilizando el objeto `Calendar` configurar la fecha para  `Mon Dec 31 00:00:00 IST 1990`
 `

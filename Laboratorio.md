@@ -1,38 +1,5 @@
 # Laboratorio Trimestre 2 Programación
 
-## Fechas:
-
-* La clase `java.util.Date` se utiliza para tratar con fechas y tiempos. Si creas un simple objeto `Date` verás que se 
-crearán fechas de diversas formas. Puedes consultar en cualquier documentación API como:
-[JDK 11](https://docs.oracle.com/en/java/javase/11/docs/api/index.html) para ver cuáles son los posibles argumentos de `Date`.
-
-* `Calendar`es un objeto estático con el cual también se puede trabajar con fechas. `Calendar.getInstance()` es un método que permite 
-obtener instacias Date. 
-
-* `SimpleFormatDate` de tal forma que se pueden asignar patrones de fecha:
-
-```
-SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yy");
-```
-* El objeto `LocalTime` también sirve para conseguir la fecha actual o transformar un formato LocalDate dada una fecha.
-
-```
-//Use of LocalDate
-final LocalDate now = LocalDate.now();
-final LocalDate birthdate2 = LocalDate.of(2012, 6, 30);
-final LocalDate birthdate3 = LocalDate.of(2012, 6, 30);
-
-LocalDate puede tener un aproximación de nanosegundos:
-LocalDateTime.of(year, month, dayOfMonth, hour, minute, second, nanoOfSecond);
-
-
-```
-
-Existen cuatro métodos interesantes de LocalDate para comparar fechas:
-`isBefore`, `isAfter`, `compareTo`, `equals`, `isEquals`.
-
-* Con **ZoneId** podemos configurar las zonas temporales del mundo y **TimeZone** es otro objeto estático para configuraciones. 
-
 ## Trabajo con la nueva API de Fechas (JDK >= 8) de JAVA
 
 * La calificación total será de 0.5 puntos sobre 10 de la nota global trimestral y tendrá como fecha máximo de entrega el lunes 16 a las 14:00h mediante la actividad classroom que estará publicada en el foro de Programación de github aunque llegará al correo del alumno.

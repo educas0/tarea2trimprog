@@ -427,26 +427,26 @@ final LocalDate birthdate2 = LocalDate.of(2012, 6, 30);
 final LocalDate birthdate3 = LocalDate.of(2012, 6, 30);
 ```
 
-Utilizando `isBefore, isAfter, isEqual, equals, `etc, calcular:
+5. Utilizando `isBefore, isAfter, isEqual, equals, `etc, calcular:
 
 * Si hoy es antes que **birthdate2**
 * Si hoy es después que **birthdate2**
 * Si es igual **birthdate2** y **birthdate3**
 
-1. Averigua todas las zonas temporales disponibles con utilizando **ZoneId** . Configura con **TimeZone** la zona horaria a **Canada/Yukon**
-2. Averigua para averiguar cuántos dias han pasado entre dos fechas **LocalDate**
+6. Averigua todas las zonas temporales disponibles con utilizando **ZoneId** . Configura con **TimeZone** la zona horaria a **Canada/Yukon**
+7. Averigua para averiguar cuántos dias han pasado entre dos fechas **LocalDate**
 ```
 LocalDate d1 = LocalDate.of(2017, 5, 1);
 LocalDate d2 = LocalDate.of(2017, 5, 18);
 ```
 Utilizar el método de ` ChronoUnit.DAYS.between(...)`
 
-7. Utilizando LocalDate y ChronoUnit.
+8. Utilizando LocalDate y ChronoUnit.
   * Suma un día a la fecha de hoy.
   * Suma una hora a la fecha de hoy.
   * Averigua los días que hay entre la fecha de hoy y tred días más añadidos.
 
-8. Teniendo las siguientes declaraciones:
+9. Teniendo las siguientes declaraciones:
 
 ```java
 LocalTime start = LocalTime.of(1, 0, 0); // hora, minuto, segundo
@@ -455,6 +455,6 @@ LocalTime end = LocalTime.of(2, 10, 20); // hora, minuto, segundo
 
 Calcula las horas, minutos, segundos, milisegundos, microsegundos y nanosegundos transcurridos entre los dos tiempos.
 
-9. Configura la zona horaria `Asia/Kolkata` y muestra la hora en esa zona horaria. Utiliza ZoneId y LocalTime.
-10. Con el ejercicio anterior calcula la diferencia horaria entre tu zona horaria y la calculada anteriormente. 
+10. Configura la zona horaria `Asia/Kolkata` y muestra la hora en esa zona horaria. Utiliza ZoneId y LocalTime.
+11. Con el ejercicio anterior calcula la diferencia horaria entre tu zona horaria y la calculada anteriormente. 
   `
